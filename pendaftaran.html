@@ -3,21 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pendaftaran - UKM Connect</title>
+    <style>
+         * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #0352a1;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+           background-color: white;
+           padding: 5px 20px;
+           margin-top: -8px;
+           margin-left: -8px;
+           margin-right: -8px;
+           display: flex;
+           flex-direction: row;
+           justify-content: space-between;
+           align-items: center;
+        }
+
+        .data {
+            background-color: rgb(199, 201, 209);
+            padding: 16px;
+            margin: 12px 0;
+            border: 1px solid #DCE5EF;
+            border-radius: 8px;
+        }
+
+        .footer {
+            background-color: #ffff;
+            width: 100%;
+            padding: 25px 16px;
+            margin-top: 20px;
+            box-sizing: border-box;
+            text-align: center;
+            margin-left: -8px;
+            width: calc(100% + 16px);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        tr, th, td {
+            border: 2px solid #DCE5EF;
+            padding: 8px;
+            text-align: left;
+        }
+
+        li {
+            padding: 8px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Pendaftaran</h1>
-        <p>Kalian dapat mengunjungi instagram ukm untuk melakukan pendaftaran!</p>
-            <ol>
-                <li><a href="https://www.instagram.com/retotik.ucic?obrf=ZmEzZGp2ZTJndW14">Retotik</a></li>
-                <li><a href="https://www.instagram.com/ucic.ukmmusik?mdxt=ZjR4MTFrbzdqbnJ5">Musik</a></li>
-                <li><a href="https://www.instagram.com/ukmarthography?psln=OXpucDl1dDFnMWEy">Arthography</a></li>
-                <li><a href="https://www.instagram.com/ucic_esports?vrfl=MTl5c3FrY3Bkbm5nMA==">Esports</a></li>
-                <li><a href="https://www.instagram.com/ukmnusantari.ucic?dlrf=dDgycnJiZ3ltMmE2">Nusantari</a></li>
-                <li><a href="https://www.instagram.com/ukmolahraga.ucic_?exln=c2xwY2RoaXQ2eDJv">Olahraga</a></li>
-                <li><a href="https://www.instagram.com/impala_ucic?srtk=c2l1MmFiZDkxbnFi">Impala</a></li>
-                <li><a href="https://www.instagram.com/cic.englishclub?psln=eXloejJpMTh3NDVs">CEC</a></li>
-            </ol>
-        <p><a href="home.html">Balik ke halaman utama.</a></p>   
+    <div class="header">
+        <div class="logo">
+            <img src="img/ucic.jpg" alt="Logo Univ" width="100">
+        </div>
+        <div class="menu" style="display: flex; gap: 20px;">
+            <p><a href="home.html">Home</a></p>
+            <p><a href="ukm.html">UKM</a></p>
+            <p><a href="pendaftaran.html" style="color: black;">Pendaftaran</a></p>
+            <p><a href="galeri.html">Galeri</a></p>
+            <p><a href="tentang.html">Tentang</a></p>
+            <p><a href="kontak.html">Kontak</a></p>
+        </div>
+        
+    </div>
+    <div class="data">
+        <h1 style="text-align: center;">Pendaftaran</h1>
+                <p style="text-align: center;">Kalian dapat mengunjungi instagram ukm untuk melakukan pendaftaran!</p>
+                    <ol>
+                        <li><a href="https://www.instagram.com/retotik.ucic?obrf=ZmEzZGp2ZTJndW14">Retotik</a></li>
+                        <li><a href="https://www.instagram.com/ucic.ukmmusik?mdxt=ZjR4MTFrbzdqbnJ5">Musik</a></li>
+                        <li><a href="https://www.instagram.com/ukmarthography?psln=OXpucDl1dDFnMWEy">Arthography</a></li>
+                        <li><a href="https://www.instagram.com/ucic_esports?vrfl=MTl5c3FrY3Bkbm5nMA==">Esports</a></li>
+                        <li><a href="https://www.instagram.com/ukmnusantari.ucic?dlrf=dDgycnJiZ3ltMmE2">Nusantari</a></li>
+                        <li><a href="https://www.instagram.com/ukmolahraga.ucic_?exln=c2xwY2RoaXQ2eDJv">Olahraga</a></li>
+                        <li><a href="https://www.instagram.com/impala_ucic?srtk=c2l1MmFiZDkxbnFi">Impala</a></li>
+                        <li><a href="https://www.instagram.com/cic.englishclub?psln=eXloejJpMTh3NDVs">CEC</a></li>
+                    </ol>
+                <p style="text-align: center;"><a href="home.html">Balik ke halaman utama.</a></p>   
+    </div>
+    
 </body>
 </html>

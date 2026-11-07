@@ -1,0 +1,24 @@
+CATATAN SINGKAT PROPERTY CSS YANG DIGUNAKAN
+
+
+Beberapa property CSS yang digunakan antara lain:
+
+1. background-color: Mengatur warna latar belakang.
+2. font-family: Mengatur jenis huruf.
+3. padding: Mengatur jarak bagian dalam elemen.
+4. margin: Mengatur jarak luar antar elemen.
+5. border: Memberikan garis tepi pada elemen.
+6. border-radius: Membuat sudut elemen melengkung.
+7. width dan height: Mengatur lebar dan tinggi elemen.
+8. text-align: Mengatur perataan teks.
+9. display: flex: Mengatur posisi elemen agar dapat tersusun sejajar.
+10. flex-direction: Mengatur arah susunan elemen.
+11. justify-content: Mengatur posisi elemen secara horizontal.
+12. align-items: Mengatur posisi elemen secara vertikal.
+13. display: grid: Mengatur susunan foto dalam bentuk baris dan kolom.
+14. grid-template-columns: Mengatur jumlah kolom pada galeri foto.
+15. gap: Mengatur jarak antar elemen.
+16. box-shadow: Memberikan efek bayangan pada kotak.
+17. box-sizing: Mengatur perhitungan ukuran elemen.
+
+link github : https://github.com/kleoiosn/ukm-connect.git

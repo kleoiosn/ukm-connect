@@ -3,27 +3,156 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galeri</title>
+    <title>Galeri - UKM Connect</title>
+    <style>
+         * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #0352a1;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+           background-color: white;
+           padding: 5px 20px;
+           margin-top: -8px;
+           margin-left: -8px;
+           margin-right: -8px;
+           display: flex;
+           flex-direction: row;
+           justify-content: space-between;
+           align-items: center;
+        }
+
+        .galeri {
+            background-color: rgb(199, 201, 209);
+            padding: 16px;
+            margin: 12px 0;
+            border: 1px solid #DCE5EF;
+            border-radius: 8px;
+        }
+
+        .daftar-foto {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .foto {
+            background-color: azure;
+            padding: 8px;
+            border: 1px solid #DCE5EF;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .foto img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 5px;
+        }
+
+        .footer {
+            background-color: #ffff;
+            width: 100%;
+            padding: 25px 16px;
+            margin-top: 20px;
+            box-sizing: border-box;
+            text-align: center;
+            margin-left: -8px;
+            width: calc(100% + 16px);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        tr, th, td {
+            border: 2px solid #DCE5EF;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
 </head>
 <body>
-    <h1>Galeri UKM</h1>
-            <p>Inilah dokumentasi unit kegiatan mahasiswa!</p>
-            <table>
-                <tr>
-                    <th><img src="img/meow.jpg" alt="Si Meow" width="200"></th>
-                    <th><img src="img/retotik.jpg" alt="Kegiatan Retotik" width="200"></th>
-                    <th><img src="img/musik.jpg" alt="Kegiatan Musik" width="200"></th>
-                    <th><img src="img/arthography.jpg" alt="Kegiatan Arthography.jpg" width="200"></th>
-                    <th><img src="img/esports.jpg" alt="Kegiatan Esports.jpg" width="200"></th>
-                </tr>
-                <tr>
-                    <td><img src="img/meow3.jpg" alt="Si Meow" width="200"></td>
-                    <td><img src="img/nusantari.jpg" alt="Kegiatan Nusantari" width="200"></td>
-                    <td><img src="img/olahraga.jpg" alt="Kegiatan Olahraga.jpg" width="200"></td>
-                    <td><img src="img/impala.jpg" alt="Kegiatan Impala.jpg" width="200"></td>
-                    <td><img src="img/cec.jpg" alt="Kegiatan CEC.jpg" width="200"></td>
-                </tr>
-            </table>
-            <p><a href="home.html">Balik ke halaman utama.</a></p>
+    <div class="header">
+        <div class="logo">
+            <img src="img/ucic.jpg" alt="Logo Univ" width="100">
+        </div>
+        <div class="menu" style="display: flex; gap: 20px;">
+            <p><a href="home.html">Home</a></p>
+            <p><a href="ukm.html">UKM</a></p>
+            <p><a href="pendaftaran.html">Pendaftaran</a></p>
+            <p><a href="galeri.html" style="color: black;">Galeri</a></p>
+            <p><a href="tentang.html">Tentang</a></p>
+            <p><a href="kontak.html">Kontak</a></p>
+        </div>
+        
+    </div>
+
+    <div class="galeri">
+
+        <h1 style="text-align: center;">Galeri UKM</h1>
+
+        <p style="text-align: center;">
+            Inilah dokumentasi unit kegiatan mahasiswa!
+        </p>
+
+        <div class="daftar-foto">
+
+            <div class="foto">
+                <img src="img/meow.jpg" alt="Si Meow">
+            </div>
+
+            <div class="foto">
+                <img src="img/retotik.jpg" alt="Kegiatan Retotik">
+            </div>
+
+            <div class="foto">
+                <img src="img/musik.jpg" alt="Kegiatan Musik">
+            </div>
+
+            <div class="foto">
+                <img src="img/arthography.jpg" alt="Kegiatan Arthography">
+            </div>
+
+            <div class="foto">
+                <img src="img/esports.jpg" alt="Kegiatan Esports">
+            </div>
+
+            <div class="foto">
+                <img src="img/meow3.jpg" alt="Si Meow">
+            </div>
+
+            <div class="foto">
+                <img src="img/nusantari.jpg" alt="Kegiatan Nusantari">
+            </div>
+
+            <div class="foto">
+                <img src="img/olahraga.jpg" alt="Kegiatan Olahraga">
+            </div>
+
+            <div class="foto">
+                <img src="img/impala.jpg" alt="Kegiatan Impala">
+            </div>
+
+            <div class="foto">
+                <img src="img/cec.jpg" alt="Kegiatan CEC">
+            </div>
+
+        </div>
+
+        <p style="text-align: center;">
+            <a href="home.html">Balik ke halaman utama.</a>
+        </p>
+
+    </div>
+
 </body>
 </html>

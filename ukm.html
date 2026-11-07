@@ -3,10 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UKM</title>
+    <title>UKM - UKM Connect</title>
+    <style>
+         * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #0352a1;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+           background-color: white;
+           padding: 5px 20px;
+           margin-top: -8px;
+           margin-left: -8px;
+           margin-right: -8px;
+           display: flex;
+           flex-direction: row;
+           justify-content: space-between;
+           align-items: center;
+        }
+
+        .ukm {
+            background-color: rgb(199, 201, 209);
+            padding: 16px;
+            margin: 12px 0;
+            border: 1px solid #DCE5EF;
+            border-radius: 8px;
+        }
+
+        .footer {
+            background-color: #ffff;
+            width: 100%;
+            padding: 25px 16px;
+            margin-top: 20px;
+            box-sizing: border-box;
+            text-align: center;
+            margin-left: -8px;
+            width: calc(100% + 16px);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        tr, th, td {
+            border: 2px solid #DCE5EF;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
 </head>
 <body>
-    <h1>UKM</h1>
+    <div class="header">
+        <div class="logo">
+            <img src="img/ucic.jpg" alt="Logo Univ" width="100">
+        </div>
+        <div class="menu" style="display: flex; gap: 20px;">
+            <p><a href="home.html">Home</a></p>
+            <p><a href="ukm.html" style="color: black;">UKM</a></p>
+            <p><a href="pendaftaran.html">Pendaftaran</a></p>
+            <p><a href="galeri.html">Galeri</a></p>
+            <p><a href="tentang.html">Tentang</a></p>
+            <p><a href="kontak.html">Kontak</a></p>
+        </div>
+        
+    </div>
+
+    <div class="ukm" style="text-align: center;">
+        <h1>UKM</h1>
         <p>Adapun Unit Kegiatan Mahasiswa (UKM) di Universitas Catur Insan Cendekia, yakni :</p>
         <table border="4">
             <tr>
@@ -59,5 +128,7 @@
         <a href="home.html">Balik ke halaman utama.</a>
     </p>
 
+</div>
+    
 </body>
 </html>
